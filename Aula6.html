@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Exerciceo Aula 06</title>
+    <link rel="stylesheet" href="Aula6.css">
+    <script src="Aula6.js"></script> 
+</head>
+<body>
+
+    <input type="text" id="campoTexto" placeholder="Digite algo aqui">
+
+    <p id="exibicaoTexto"></p>
+
+
+    <h2>Selecione a cor desejada:</h2>
+
+
+        <p onclick="selectColor('red')" style="cursor: pointer;">Vermelho</p>
+        <p onclick="selectColor('blue')" style="cursor: pointer;">Azul</p>
+        <p onclick="selectColor('green')" style="cursor: pointer;">Verde</p>
+        <p onclick="selectColor('yellow')" style="cursor: pointer;">Amarelo</p>
+        <p onclick="selectColor('purple')" style="cursor: pointer;">Roxo</p>
+   
+
+    <button onclick="AplicarCor(), capturarTexto(), historico()">Mudar de Cor</button>
+
+    <p id="texto">A Sandra mama legal</p>
+
+    <h3>Historico de cores:</h3>
+    <ul id="historico"></ul>
+
+  
+
+</body>
+</html>
+
